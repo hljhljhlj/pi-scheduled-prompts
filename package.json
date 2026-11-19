@@ -1,0 +1,23 @@
+{
+	"name": "pi-scheduled-prompts",
+	"version": "0.1.0",
+	"description": "Scheduled prompts for pi: inject prompts into the live session on a timer/cron, or spawn a fresh pi session (Herdr tab / headless) to run them",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"scheduler",
+		"cron",
+		"automation"
+	],
+	"author": "hljhljhlj",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hljhljhlj/pi-scheduled-prompts.git"
+	},
+	"pi": {
+		"extensions": [
+			"./scheduled-prompts.ts"
+		]
+	}
+}
